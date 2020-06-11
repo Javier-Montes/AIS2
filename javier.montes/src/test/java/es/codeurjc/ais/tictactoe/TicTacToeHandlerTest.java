@@ -36,7 +36,6 @@ public class TicTacToeHandlerTest {
 	
 	 @BeforeEach
 	 public void setupTest() {
-     System.setProperty("webdriver.gecko.driver", "/home/javi/Downloads/geckodriver-v0.26.0-linux64/geckodriver");
 	 driver1 = new FirefoxDriver();
 	 driver2 = new FirefoxDriver();
 	 }

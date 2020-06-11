@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: es.codeurjc.ais.tictactoe.TicTacToeHandlerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 84.372 s - in es.codeurjc.ais.tictactoe.TicTacToeHandlerTest
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 91.816 s <<< FAILURE! - in es.codeurjc.ais.tictactoe.TicTacToeHandlerTest
+SimulacionVictoriaJugador1  Time elapsed: 31.784 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: #cell\-0
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'HP', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-37-generic', java.version: '11.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 77.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200602222727, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 30272, moz:profile: /tmp/rust_mozprofileCLqkdl, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-37-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 59121692-13b2-45c9-8bfa-de8a9ca4a6f3
+*** Element info: {Using=id, value=cell-0}
+	at es.codeurjc.ais.tictactoe.TicTacToeHandlerTest.SimulacionVictoriaJugador1(TicTacToeHandlerTest.java:103)
+
